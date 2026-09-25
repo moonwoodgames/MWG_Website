@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
 
 body {
-    /* Gradient from dark purple to medium purple */
     background: linear-gradient(180deg, #240046, #5a189a);
     color: #ffffff;
     font-family: 'Quicksand', 'Comic Sans MS', sans-serif;
@@ -14,7 +13,7 @@ body {
 }
 
 h1 {
-    color: #c76bff; /* Gold */
+    color: #c76bff;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -22,15 +21,15 @@ h1 {
 
 .container {
     text-align: center;
-    border: 2px solid #ffd700;
-    border-radius: 25px; /* Rounded, whimsical corners */
+    /*border: 2px solid #ffd700;*/
+    border-radius: 25px;
     padding: 40px;
-    background-color: rgba(36, 0, 70, 0.5); /* Translucent dark purple block */
+    background-color: rgba(36, 0, 70, 0.5);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 a {
-    color: #c76bff; /* Slightly brighter gold for the link */
+    color: #c76bff;
     text-decoration: none;
     font-weight: 700;
     border-bottom: 2px dotted #c76bff;
