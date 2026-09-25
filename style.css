@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+body {
+    /* Gradient from dark purple to medium purple */
+    background: linear-gradient(180deg, #240046, #5a189a);
+    color: #ffffff;
+    font-family: 'Quicksand', 'Comic Sans MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #ffd700; /* Gold */
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+    border: 3px solid #ffd700;
+    border-radius: 25px; /* Rounded, whimsical corners */
+    padding: 40px;
+    background-color: rgba(36, 0, 70, 0.5); /* Translucent dark purple block */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #ffb703; /* Slightly brighter gold for the link */
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 2px dotted #ffb703;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
