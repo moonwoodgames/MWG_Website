@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    color: #ffd700; /* Gold */
+    color: #c76bff; /* Gold */
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@ h1 {
 
 .container {
     text-align: center;
-    border: 3px solid #ffd700;
+    border: 2px solid #ffd700;
     border-radius: 25px; /* Rounded, whimsical corners */
     padding: 40px;
     background-color: rgba(36, 0, 70, 0.5); /* Translucent dark purple block */
@@ -30,10 +30,10 @@ h1 {
 }
 
 a {
-    color: #ffb703; /* Slightly brighter gold for the link */
+    color: #c76bff; /* Slightly brighter gold for the link */
     text-decoration: none;
     font-weight: 700;
-    border-bottom: 2px dotted #ffb703;
+    border-bottom: 2px dotted #c76bff;
     transition: color 0.3s ease;
 }
 
